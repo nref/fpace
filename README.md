@@ -1,8 +1,10 @@
 # fpace - Run Pace Calculator 
 
-This is a running pace calculator inspired by the [Cool Running pace calculator](https://a.atmos.washington.edu/~ovens/racepace.html). 
+fpace is a running pace calculator inspired by the [Cool Running pace calculator](https://a.atmos.washington.edu/~ovens/racepace.html). 
 
 It is written in F# and works in the browser using [Fable](http://fable.io/) and [Feliz](https://github.com/Zaid-Ajaj/Feliz).
+
+![Screenshot of fpace](screenshot.png)
 
 Try it [online](https://www.slater.dev/fpace)
 
