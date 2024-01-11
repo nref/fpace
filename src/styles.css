@@ -36,7 +36,7 @@ input:focus, textarea:focus {
 }
 
 button {
-	width: calc(100% - 2rem);
+	width: calc(100% - 1vw);
   display: block;
   border-radius: 1rem;
   border: none;

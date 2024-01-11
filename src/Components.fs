@@ -60,7 +60,7 @@ type Components =
                                     [ Html.button
                                           [
 
-                                            prop.text "Calculate Time"
+                                            prop.text "Get Time"
                                             prop.onClick (fun _ ->
 
                                                 let pace =
@@ -138,7 +138,7 @@ type Components =
                                                                           Html.option [ Html.text "yd" ] ] ] ] ] ] ] ]
                                 Html.td
                                     [ Html.button
-                                          [ prop.text "Calculate Pace"
+                                          [ prop.text "Get Pace"
                                             prop.onClick (fun _ ->
                                                 let time =
                                                     RunMath.Duration(
@@ -228,7 +228,7 @@ type Components =
 
                                 Html.td
                                     [ Html.button
-                                          [ prop.text "Calculate Distance"
+                                          [ prop.text "Get Distance"
                                             prop.onClick (fun _ ->
 
                                                 let time =
